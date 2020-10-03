@@ -58,7 +58,7 @@ main .col-md-4, .col-lg-4 {
 }
 .lb-nav a.lb-next {
     background: url('../images/products/next.png') left 50% no-repeat !important;
-    width: 7% !important;
+    width: 11% !important;
 }
 .lb-nav a.lb-prev {
     background: url('../images/products/prev.png') left 48% no-repeat !important;
@@ -70,6 +70,15 @@ main .col-md-4, .col-lg-4 {
 @media (max-width: 768px) {
     main .card {
         margin-bottom: 20px;
+    }
+    main table {
+        width: 280px;
+    }
+    .breadcrumb-wrapper .breadcrumb-item {
+        font-size: 15px;
+    }
+    main h1 {
+        font-size: 23px;
     }
 }
 /* //pipes & nipples page */
