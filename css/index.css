@@ -52,9 +52,9 @@ body {
 }
 .dropdown .dropdown-item {
     color: #fff;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 16px;
     padding: 7px 13px;
     margin: 0;
     border-bottom: 1px solid #6a71d0;
@@ -248,7 +248,7 @@ main .main-box {
 }
 main .main-box a h3 {
     display: inline-block;
-    font-size: 22px;
+    font-size: 19px;
     font-weight: 600;
     text-transform: capitalize;
     color: #1f70cc;
