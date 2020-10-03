@@ -29,16 +29,6 @@ main .card-body {
     background-color: #f2f7fd;
     padding: 4px 15px 4px 15px;
 }
-main .card .list-group-item {
-    background-color: #f2f7fd !important;
-    font-weight: 600;
-    font-size: 17px;
-    padding: 9px 0px;
-}
-main .card .list-group-item span {
-    display: inline-block;
-    font-weight: 400;
-}
 main table {
     width: 314px;
 }
@@ -46,10 +36,36 @@ main th {
     line-height: 40px;
     color: rgb(78, 78, 78);
 }
+main td {
+    font-size: 16px;
+}
+.fs-13 { font-size: 13px !important; }
+.fs-15 { font-size: 15px !important; }
 main tr {
     border-bottom: 1px solid rgb(214, 214, 214);
 }
+main .col-md-4, .col-lg-4 {
+    margin-bottom: 30px;
+}
 .bb-none { border-bottom: none !important; }
+
+/* lightbox image viewser css */
+.lb-data .lb-details {
+    margin-top: 12px;
+}
+.lb-data .lb-caption {
+    font-size: 20px !important;
+}
+.lb-nav a.lb-next {
+    background: url('../images/products/next.png') left 50% no-repeat !important;
+    width: 7% !important;
+}
+.lb-nav a.lb-prev {
+    background: url('../images/products/prev.png') left 48% no-repeat !important;
+    /* height: 45px; */
+}
+
+
 
 @media (max-width: 768px) {
     main .card {

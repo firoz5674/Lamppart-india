@@ -1,6 +1,6 @@
 
 footer {
-    background-color: #fff;
+    background-color: #f2f7fd;
     padding: 50px 0px 40px 0px;
 }
 footer h4 {
@@ -24,13 +24,30 @@ footer .footer-social li {
     margin: 0px 3px;
 }
 footer .footer-social .fa {
-    background-color: #3b4e99;
     color: #fff;
     padding: 12px 13px;
     border-radius: 100px;
 } 
 footer .footer-social .fa-facebook {
-    padding: 12px 16px;
+    padding: 15px 18px;
+    background-color: #1877f2;
+    color: #fff;
+}
+footer .footer-social .fa-twitter {
+    padding: 15px 15px;
+    background-color: #1da1f2;
+    color: #fff;
+}
+footer .footer-social .fa-instagram {
+    padding: 15px 16px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: #fff;
+    font-size: 18px;
+}
+footer .footer-social .fa-whatsapp {
+    padding: 15px 16px;
+    background-color: #2cc54e;
+    color: #fff;
 }
 footer .footer-menu {
     margin-top: 30px;
