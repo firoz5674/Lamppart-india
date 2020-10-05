@@ -39,7 +39,9 @@ main th {
 main td {
     font-size: 16px;
 }
+.fs-12 { font-size: 12px !important; }
 .fs-13 { font-size: 13px !important; }
+.fs-14 { font-size: 14px !important; }
 .fs-15 { font-size: 15px !important; }
 main tr {
     border-bottom: 1px solid rgb(214, 214, 214);
